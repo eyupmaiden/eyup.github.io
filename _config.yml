@@ -29,7 +29,7 @@ force-https: True
 #############
 
 lang: "en"
-author: "Davide Pastore"
+author: "Jon Crowder"
 title: "Ey Up Maiden"
 description: "Official website of Yorkshire Iron Maiden tribute act Ey Up Maiden. Includes a biography, show dates and booking details."
 keywords: "ey up maiden, iron maiden, music, metal, strings, dramedy"
@@ -47,7 +47,7 @@ navbar-offset-top: 180
 
 black-favicon: "/img/black-lab-glass.ico"
 
-background-img: "../img/macaria-logo.png"
+background-img: "../img/eyupbackground2.png"
 
 ##############################
 # Dynamic Text on the Header #
