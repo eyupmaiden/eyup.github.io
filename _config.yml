@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "http://macaria.site"
+url: "https://eyupmaiden.github.io/eyup.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -16,13 +16,13 @@ url: "http://macaria.site"
 
 # Google tracking id
 
-google-tracking-id: "UA-87356320-1"
+google-tracking-id: "blank"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
 # then you should disable it
 
-force-https: False
+force-https: True
 
 #############
 # HTML Head #
@@ -30,9 +30,9 @@ force-https: False
 
 lang: "en"
 author: "Davide Pastore"
-title: "Macaria"
-description: "Official website of the Folk/Death metal band from Italy. Includes a biography, releases, show dates, contact and a store."
-keywords: "macaria, music, metal, strings, dramedy"
+title: "Ey Up Maiden"
+description: "Official website of Yorkshire Iron Maiden tribute act Ey Up Maiden. Includes a biography, show dates and booking details."
+keywords: "ey up maiden, iron maiden, music, metal, strings, dramedy"
 favicon: "/img/favicon.ico"
 
 ##########
@@ -61,24 +61,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The air is full of  bizzarre sound"
-  - text: "Keep on dancing, keep on acting, keep on dancing"
-  - text: "From on high I try to fight my fears<br/>
-           contempling the living mosaic below me"
-  - text: "We take our children and put them in this breeding<br/>
-           where they shape them how society want"
-  - text: "Legions of shaped minds march to the future<br/>
-           breeded without way of choose"
-  - text: "Eternal prize, lure for the lucky ones<br/>
-           a comfortably illusion if your life has been damn"
-  - text: "Why he still working?<br/>
-           Love for he's family and he's dignity"
-  - text: "Our leader, our float we will always trail<br/>
-           our leader, our float has a bigger cock than your"
-  - text: "Cage, cage in this opera<br/>
-           We are all puppets, we are all puppets"
-  - text: "We are all bounded to the strings of our wills<br/>
-           We are all masters, everyone make the strings"
+  - text: "Scream for me Yorkshire!"
+  - text: "Ey Up Maiden's gonna getcha!"
+  - text: "I am a man who walks alone<br/>
+           when I'm walking a dark road"
 
 me-img: "/img/jetpacktocat.png"
 
@@ -124,7 +110,7 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-disqus-shortname: "macaria"
+disqus-shortname: "eyup"
 
 syntax-highlight: True
 
@@ -148,7 +134,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "macariametal@outlook.it"
+email: "bookings@eyupmaiden.com"
 
 ################
 # Author Blurb #
@@ -167,17 +153,8 @@ email: "macariametal@outlook.it"
 
 social:
   - title: "facebook"
-    url: "https://www.facebook.com/officialmacaria"
-  - title: "twitter"
-    url: "https://twitter.com/MacariaOfficial"
-  - title: "youtube"
-    url: "https://www.youtube.com/channel/UC0SObLBSO9gix4QvG98OBTQ"
-  - title: "star"
-    url: "https://www.reverbnation.com/macaria"
-  - title: "github"
-    url: "https://github.com/MacariaBand/macariaband.github.io"
-  - title: "rss"
-    url: "/feed.xml"
+    url: "https://www.facebook.com/MaidenYorkshire/"
+  
 
 ############
 # 404 page #
@@ -200,39 +177,6 @@ keybase-in-footer: False
 # Sections shown in the menu
 
 pages_list:
-  it:
-    - title: 'Bio'
-      external: False
-      url: '#bio'
-      name: 'bio'
-    #- title: 'Blog'
-    #  external: False
-    #  url: '#latest-post'
-    #  name: 'latest-post'
-    #- title: 'Timeline'
-    #  external: False
-    #  url: '#timeline'
-    #  name: 'timeline'
-    - title: 'Release'
-      external: False
-      url: '#releases'
-      name: 'releases'
-    - title: 'Contatti'
-      external: False
-      url: '#contact'
-      name: 'contact'
-    - title: "A Strings' Dramedy"
-      external: False
-      url: 'a-strings-dramedy-it/'
-      name: ''
-    - title: 'Store'
-      external: True
-      url: 'http://bit.ly/2e88hRR'
-      name: ''
-    - title: 'Concerti'
-      external: False
-      url: 'concerti/'
-      name: ''
   en:
     - title: 'Bio'
       external: False
@@ -246,22 +190,10 @@ pages_list:
     #  external: False
     #  url: '#timeline'
     #  name: 'timeline'
-    - title: 'Releases'
-      external: False
-      url: '#releases'
-      name: 'releases'
     - title: 'Contact'
       external: False
       url: '#contact'
       name: 'contact'
-    - title: "A Strings' Dramedy"
-      external: False
-      url: 'a-strings-dramedy/'
-      name: ''
-    - title: 'Store'
-      external: True
-      url: 'http://bit.ly/2e88hRR'
-      name: ''
     - title: 'Tour Dates'
       external: False
       url: 'tour-dates/'
